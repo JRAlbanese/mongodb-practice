@@ -26,5 +26,4 @@ first_3_lines = lab_collection.find().limit(3)
 x = 0
 
 for each in first_3_lines:
-    x += 1
-    print(str(x) + ":" + each)
+    print(each)
